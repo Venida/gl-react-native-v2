@@ -242,6 +242,11 @@
 					"$(SRCROOT)/../../react-native/Libraries/Image",
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 					"$(SRCROOT)/../node_modules/react-native/Libraries/Image",
+					"${PODS_ROOT}/Headers/Private",
+					"${PODS_ROOT}/Headers/Private/RNGL",
+					"${PODS_ROOT}/Headers/Public",
+					"${PODS_ROOT}/Headers/Public/RNGL",
+					"${PODS_ROOT}/Headers/Public/React",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -287,6 +292,11 @@
 					"$(SRCROOT)/../../react-native/Libraries/Image",
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 					"$(SRCROOT)/../node_modules/react-native/Libraries/Image",
+                    "${PODS_ROOT}/Headers/Private",
+                    "${PODS_ROOT}/Headers/Private/RNGL",
+                    "${PODS_ROOT}/Headers/Public",
+                    "${PODS_ROOT}/Headers/Public/RNGL",
+                    "${PODS_ROOT}/Headers/Public/React",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
